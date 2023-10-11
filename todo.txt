@@ -1,3 +1,7 @@
 .administrer section :
     * annuler button
     * retour button
+
+
+. General :
+    * save user changes -->  sessionStorage or localStorage 

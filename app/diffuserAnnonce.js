@@ -96,6 +96,7 @@ function handleAnnuleButton(btn, form) {
   };
 }
 
+// sample validation
 function validerForm(form) {
   event.preventDefault();
   let formData = new FormData(form);
@@ -107,6 +108,7 @@ function validerForm(form) {
     }
   }
 
+  // return ordered object like in db.js
   return {
     id: annonces.length + 1,
     texte: form["texte"].value,

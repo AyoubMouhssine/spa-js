@@ -96,7 +96,8 @@ export default function administrerAnnonce() {
         };
 
         // annuler button
-        content.querySelector(".annuler-button").onclick = () => {
+        content.querySelector(".annuler-button").onclick = function (event) {
+          event.preventDefault();
           alert(1);
         };
       };

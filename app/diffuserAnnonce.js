@@ -83,7 +83,10 @@ function generateHtmlForDiffuser(content, regions, categories) {
 function handleValiderButton(btn, form) {
   btn.onclick = () => {
     let data = validerForm(form);
-    annonces.push(data);
+
+    if (data) {
+      annonces.push(data);
+    }
   };
 }
 

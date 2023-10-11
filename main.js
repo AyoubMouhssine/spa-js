@@ -1,7 +1,7 @@
 // import functions
-import consulterAnnonce from "./consulterAnnonce.js";
-import diffuserAnnonce from "./diffuserAnnonce.js";
-import administrerAnnonce from "./administrerAnonce.js";
+import consulterAnnonce from "./app/consulterAnnonce.js";
+import diffuserAnnonce from "./app/diffuserAnnonce.js";
+import administrerAnnonce from "./app/administrerAnonce.js";
 // content to be changed dynamically
 const content = document.querySelector("#content");
 
